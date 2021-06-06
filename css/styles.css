@@ -1,0 +1,38 @@
+body {
+    text-align: center;
+    margin: 0px;
+}
+.container {
+    position: relative;
+}
+
+.descriptor {
+    margin: 10% 10% 20% 10%;
+}
+
+.icon {
+    position: absolute;
+    left: 10%;
+    margin: 10% 0px;
+}
+.sedans {
+    display: inline-block;
+    position: relative;
+    width: 30%;
+    background-color:  hsl(31, 77%, 52%);
+}
+
+.suvs {
+    display: inline-block;
+    position: relative;
+    width: 30%;
+    background-color:  hsl(184, 100%, 22%);
+}
+
+.luxury {
+    display: inline-block;
+    position: relative;
+    width: 30%;
+    background-color:  hsl(179, 100%, 13%);
+}
+
