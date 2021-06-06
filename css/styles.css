@@ -1,38 +1,70 @@
 body {
     text-align: center;
     margin: 0px;
+    font-size: 15px;
 }
 .container {
-    position: relative;
-}
 
+}
+h1 {
+    margin-left: 10%;
+    color: hsl(0, 0%, 95%);
+    
+    font-family: 'Big Shoulders Display', cursive;
+}
 .descriptor {
     margin: 10% 10% 20% 10%;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
 }
 
 .icon {
-    position: absolute;
-    left: 10%;
-    margin: 10% 0px;
+    margin: 10% 60% 10% 10%;
 }
 .sedans {
+    height: 400px;
     display: inline-block;
-    position: relative;
     width: 30%;
     background-color:  hsl(31, 77%, 52%);
+    text-align: left;
 }
 
 .suvs {
+    height: 400px;
     display: inline-block;
-    position: relative;
     width: 30%;
     background-color:  hsl(184, 100%, 22%);
+    text-align: left;
 }
 
 .luxury {
+    height: 400px;
     display: inline-block;
-    position: relative;
     width: 30%;
     background-color:  hsl(179, 100%, 13%);
+    text-align: left;
 }
 
+.learnMore {
+  margin-left: 10%;
+  margin-bottom: 10%;
+  border-style: solid;
+  border-color: white;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: white;
+  text-decoration: none;
+
+}
+
+.sedanAbout {
+    color: hsl(31, 77%, 52%);
+}
+
+.suvAbout {
+    color: hsl(184, 100%, 22%);
+}
+
+.luxuryAbout {
+    color:  hsl(179, 100%, 13%);
+}
